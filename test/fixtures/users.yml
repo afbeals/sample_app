@@ -1,1 +1,4 @@
-# empty
+Harley:
+  name: Harley
+  email: harley@railstutorial.org
+  password_digest: <%= User.digest('password') %>
